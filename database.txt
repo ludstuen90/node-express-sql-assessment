@@ -5,7 +5,7 @@ This application accesses a database with the following specifications:
 
 This table can be replicated with the following SQL command:
 
-CREATE TABLE zoo (
+CREATE TABLE zoo_table (
 id SERIAL PRIMARY KEY UNIQUE NOT NULL,
 animal_name VARCHAR,
 animal_count VARCHAR
