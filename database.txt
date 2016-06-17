@@ -1,0 +1,12 @@
+This application accesses a database with the following specifications:
+*Database Name: 'zoo'
+*Table Name: 'zoo_table'
+*Columns within table: 'id', 'animal_name', 'animal_count'
+
+This table can be replicated with the following SQL command:
+
+CREATE TABLE zoo (
+id SERIAL PRIMARY KEY UNIQUE NOT NULL,
+animal_name VARCHAR,
+animal_count VARCHAR
+);

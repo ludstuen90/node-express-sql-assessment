@@ -47,7 +47,7 @@ var getAnimals = function(){
 var updatePage=function(data){
   console.log("Made it to update page!");
   $('#animalsInDatabase').empty();
-  $('#animalsInDatabase').append('<table>');
+  $('#animalsInDatabase').append('<table' + ' align="center"' );
   $('#animalsInDatabase').append('<tr><td><b>Animal</b></td>' +' <td><b>Count</b></td> </tr></b>');
 
   for (var i = 0; i<data.length; i++){
